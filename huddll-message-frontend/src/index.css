@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.user_message{
+  padding: 5px;
+  color: rgb(134, 134, 190);
+  text-align: right;
+  list-style-type: none;
+}
+.other_message{
+  padding: 5px;
+
+  color: rgb(140, 168, 36);
+  text-align: left;
+  list-style-type: none;
+}
+
+.sent-time{
+  font-size: 9px;
+}
+
+.message-body{
+  font-size: 20px;
+}
+
+.message-box{
+  border: 1px solid gray;
+  padding: 3px;
+}

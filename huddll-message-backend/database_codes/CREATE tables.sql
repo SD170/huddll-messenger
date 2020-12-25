@@ -1,8 +1,10 @@
-DROP TABLE IF EXISTS users ;
-DROP TABLE IF EXISTS messages;
-DROP TABLE IF EXISTS group_;
-DROP TABLE IF EXISTS message_receive;
-DROP TABLE IF EXISTS group_user;
+-- DROP TABLE IF EXISTS users ;
+-- DROP TABLE IF EXISTS messages;
+-- DROP TABLE IF EXISTS group_;
+-- DROP TABLE IF EXISTS message_receive;
+-- DROP TABLE IF EXISTS group_user;
+
+DROP TABLE IF EXISTS users, messages, group_, message_receive, group_user CASCADE;
 
 
 
